@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747700;
+    font-weight: 300;
+    background: url(../img/oldie.jpg) repeat-y center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
+
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.flow {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ninja {
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    color: #cc5200;
+}
+
+hr {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 1.25px;
+    border-top: 2px solid #ffeecc;
+    margin-bottom: 50px;
+}
+
+.names {
+    font-weight: 100;
+    font-size: 25px;
+    color: #cc5200;
+}
+
+.text-muted {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 100;
+    color: #747700;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 25px;
+}
+
+.bottom {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: inline-block;
+    border-top: 3px solid #ffeecc;
+    width: 98%;
+}
+
+.credits_h2 {
+    font-size: 30px;
+    font-weight: 100;
+    color: #747700;
+}
+.credits {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 995px) {
+        .container {
+            position: relative;
+            transform: translate(0, 0);
+        }
+        body {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .img_flo {
+                display: block;
+                margin: auto;
+        }
+      }
